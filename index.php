@@ -17,13 +17,13 @@
         <h1>allPlX</h1>
         <div class="login">
             <label>Login</label></br>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="password">
-            <label>Paseword</label></br>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label>Pasword</label></br>
+            <input name="password" type="password" class="form-control" id="exampleInputPassword1">
         </div>
-        <button type="submit" class="btn btn-success">Connexion</button>
+        <button name="button" type="submit" class="btn btn-success">Connexion</button>
     </form>
 </body>
 </html>
