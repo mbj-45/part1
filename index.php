@@ -1,9 +1,9 @@
+file_uploads = On
 <?php
     $target_dir = "uploads/";
     $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
     $uploadOk = 1;
     $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-
 
     if ($_FILES["fileToUpload"]["size"] > 1000000) {
     echo "Désolé votre fichier doit faire moins de 1 Mo.</br>";
@@ -33,7 +33,7 @@
     <link href="./assets/style.css" rel="stylesheet">
 </head>
 <body>
-    <label for="fileToUpload">veuillez choisir une image :</label>
+    <label for="fileToUpload">veuillez choisir une imag</label>
     <img id="imgPreview">
     <form action="index.php" method="post" enctype="multipart/form-data">
         <input type="file" name="fileToUpload" id="fileToUpload"></br>
