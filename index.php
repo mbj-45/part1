@@ -1,3 +1,7 @@
+<?php
+    require_once('../part1/controllers/index-controller.php')
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
