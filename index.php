@@ -6,14 +6,14 @@
             $filetype = $_FILES["photo"]["type"];
             $filesize = $_FILES["photo"]["size"];
 
-            $ext = pathinfo($filename, PATHINFO_EXTENSION);
-            if(!array_key_exists($ext, $allowed)) {
-                echo "Erreur : Veuillez sélectionner un format de fichier valide.";
-            }
-            $maxsize = 1024 * 1024;
-            if($filesize > $maxsize) {
-                echo "Error: La taille du fichier est supérieure à la limite autorisée.";
-            }
+            // $ext = pathinfo($filename, PATHINFO_EXTENSION);
+            // if(!array_key_exists($ext, $allowed)) {
+            //     echo "Erreur : Veuillez sélectionner un format de fichier valide.";
+            // }
+            // $maxsize = 1024 * 1024;
+            // if($filesize > $maxsize) {
+            //     echo "Error: La taille du fichier est supérieure à la limite autorisée.";
+            // }
         }
     }
 ?>
