@@ -1,3 +1,6 @@
+<?php
+    require_once('../part1/controllers/index-controller.php')
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,17 +13,17 @@
 
 </head>
 <body>
-    <form class="formulaire" action="verification.php" method="POST">
+    <form class="formulaire" action="" method="POST">
         <h1>allPlX</h1>
         <div class="login">
             <label>Login</label></br>
-            <input type="text" name="username" required></br>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="password">
             <label>Paseword</label></br>
-            <input type="password" name="password" required></br>
+            <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
-        <input type="submit" id='submit' value='Connexion'>
+        <button type="submit" class="btn btn-success">Connexion</button>
     </form>
 </body>
 </html>
