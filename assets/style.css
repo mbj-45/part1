@@ -3,3 +3,20 @@
 	max-height: 200px;
 	display: block;
 }
+
+body {
+	background-color: rgb(0, 0, 121);
+	color: white;
+}
+
+.login {
+	margin-bottom: 20px;
+}
+
+.password {
+	margin-bottom: 20px;
+}
+
+.formulaire {
+    margin-left: auto;
+}
