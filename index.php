@@ -17,11 +17,11 @@
     <form class="formulaire" action="" method="POST">
         <h1>allPlX</h1>
         <div class="login">
-            <label>Login</label></br>
+            <label>Login*</label></br>
             <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="password">
-            <label>Pasword</label></br>
+            <label>Pasword*</label></br>
             <input name="password" type="password" class="form-control" id="exampleInputPassword1">
         </div>
         <button name="button" type="submit" class="btn btn-success">Connexion</button>

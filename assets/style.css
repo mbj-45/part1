@@ -27,9 +27,6 @@ html, body {
 	display: block;
 }
 
-body {
-	color: white;
-}
 
 .login {
 	margin-bottom: 40px;
@@ -45,4 +42,7 @@ body {
 	text-align: center;
 	width: 300px;
 	height: 300px;
+}
+label{
+	margin-right: 6.3cm;
 }
