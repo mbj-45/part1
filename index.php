@@ -18,7 +18,11 @@
         <h1>allPlX</h1>
         <div class="login">
             <label>Login*</label></br>
-            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required
+            pattern="[^]+@[^]+[.][a-z]{2,63}$"
+            autocomplete="email"
+            data-error="Utiliser une adresse conforme"
+            data-empty="Ce champ doit être complété">
         </div>
         <div class="password">
             <label>Pasword*</label></br>

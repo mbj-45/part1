@@ -28,13 +28,13 @@ html, body {
 }
 
 
-/* .login {
+.login {
 	margin-bottom: 40px;
 }
 
 .password {
 	margin-bottom: 20px;
-} */
+}
 
 .formulaire {
 	margin: 0 auto;
@@ -45,7 +45,4 @@ html, body {
 }
 label{
 	margin-right: 6.3cm;
-}
-button{
-	margin-top: 200px;
 }
