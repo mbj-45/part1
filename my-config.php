@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
     const root = __DIR__.'\\'; 
     const max_file_size = 1024; // 1 Mo max
@@ -32,3 +33,5 @@
 
     ];
 ?>
+=======
+>>>>>>> 3e2cd2c99a88dbc591ef67c6fa6af7d58308b1ce

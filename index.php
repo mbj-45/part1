@@ -10,17 +10,17 @@
 
 </head>
 <body>
-    <form class="formulaire" action="../part1/controllers/index-controller.php" method="POST">
+    <form class="formulaire" action="./controllers/index-controller.php" method="POST">
         <h1>allPlX</h1>
         <div class="login">
-            <label>Login*</label></br>
-            <input value="email" name="email" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <label>Login</label></br>
+            <input name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="password">
-            <label>Pasword*</label></br>
-            <input value="password" name="password" type="password" class="form-control" id="exampleInputPassword1">
+            <label>Paseword</label></br>
+            <input name="password" type="password" class="form-control" id="exampleInputPassword1">
         </div>
-        <button value="login" name="login" type="submit" class="btn btn-success">Connexion</button>
+        <button type="submit" name="button" class="btn btn-primary">Connexion</button>
     </form>
 </body>
 </html>

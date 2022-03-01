@@ -1,8 +1,5 @@
-<?php 
-var_dump($_POST);
-
-?>
 <?php
+<<<<<<< HEAD
     function check_credentials(array $users){
         $is_credentials_correct = false;
         $username='';
@@ -26,20 +23,56 @@ var_dump($_POST);
             back_to_login_with_errors();
         }
     }
+=======
+    const max_file_size = 10 * 1024 * 1024; // 10 Mo max
+ 
+    const formats = [
+        "jpg" => "image/jpg",
+        "jpeg" => "image/jpeg",
+        "gif" => "image/gif",
+        "png" => "image/png"
+    ];
+ 
+    $users = [
+        [
+            'username'=> 'alexis',
+            'password'=> 'ab4f63f9ac65152575886860dde480a1',
+            'formula'=> '',
+            'quota'=> '',
+        ],
+        [
+            'username'=> 'marc',
+            'password'=> 'ab4f63f9ac65152575886860dde480a1',
+            'formula'=> '',
+            'quota'=> '',
+        ],
+        [
+            'username'=> 'andré',
+            'password'=> 'ab4f63f9ac65152575886860dde480a1',
+            'formula'=> '',
+            'quota'=> '',
+        ]
+ 
+    ];
+>>>>>>> 3e2cd2c99a88dbc591ef67c6fa6af7d58308b1ce
 
     function verify_post(){
-        return isset($_POST['login']) && isset($_POST['email']) && isset($_POST['password']);
+        return isset($_POST['button']) && isset($_POST['email']) && isset($_POST['password']);
     }
+<<<<<<< HEAD
 
 
 // --------------------------------------------
    #Utilisateur pre"defini
+=======
+   
+>>>>>>> 3e2cd2c99a88dbc591ef67c6fa6af7d58308b1ce
     function verify_credentials(){
         $username ='toto';
         $password = 'azerty';
         return $username == $_POST['email'] && $password == $_POST['password'];
     }
-    // fonction de vérification d'une connexion bien fait**
+ 
     function verify(){
         if (verify_post()){
             if(verify_credentials()){
@@ -58,5 +91,18 @@ var_dump($_POST);
  
  
     verify();
- 
 ?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../assets/style.css" rel="stylesheet">
+</head>
+<body>
+    
+</body>
+</html>

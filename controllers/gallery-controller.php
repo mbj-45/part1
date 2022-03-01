@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -26,3 +27,5 @@
     </form>
 </body>
 </html>
+=======
+>>>>>>> 3e2cd2c99a88dbc591ef67c6fa6af7d58308b1ce
