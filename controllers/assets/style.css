@@ -46,3 +46,15 @@ html, body {
 label{
 	margin-right: 6.3cm;
 }
+button{
+	margin-top: 10cm;
+}
+h1{
+	margin-right: 3cm;
+	color: azure;
+}
+h2{
+	margin-right: 5cm;
+	color: azure;
+	margin: auto;
+}

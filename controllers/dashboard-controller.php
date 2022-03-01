@@ -1,4 +1,7 @@
 <?php
+     require_once($_SERVER['DOCUMENT_ROOT']."\LAMANU\TD2_C\\my-config.php");
+
+
     $target_dir = "uploads/";
     $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
     $uploadOk = 1;

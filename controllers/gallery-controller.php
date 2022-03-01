@@ -11,11 +11,21 @@
 </head>
 <body>
     <form class="formulaire" action="" method="POST">
-        <h1>allPlX</h1>
-        
-        <img src="assets/images/1.jpg" class="rounded float-start" alt="image" width="200px"> <br>
+        <h1 class="display-4">allPlX</h1>
+        <h2>Bonjour Admin</h2>
+            <a href="./assets/images/1.jpg" data-lightbox="roadtrip">Image #2</a>
+            <a href="./assets/images/81060.png" data-lightbox="roadtrip">Image #3</a>
+            <a href="./assets/images/71r4a1wTZkL._AC_SL1000_.jpg" data-lightbox="roadtrip">Image #4</a>
+        <!-- <div class="container">
+    <div class="row">
+        <div class="col">
+        <img src="assets/images/1.jpg" class="rounded float-start" alt="image" width="300px"> <br>
+        </div>
+        <div class="col">
         <br>
-        <img src="assets/images/81060.png" class="rounded float-end" alt="image_galery" width="300px">
+            <img src="assets/images/81060.png" class="rounded float-end" alt="image_galery" width="300px">
+        </div>
+    </div> -->
        
         <button name="button" type="submit" class="btn btn-success">dashboard</button>
     </form>

@@ -14,21 +14,17 @@
 
 </head>
 <body>
-    <form class="formulaire" action="" method="POST">
+    <form class="formulaire" action="../part1/controllers/index-controller.php" method="POST">
         <h1>allPlX</h1>
         <div class="login">
             <label>Login*</label></br>
-            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required
-            pattern="[^]+@[^]+[.][a-z]{2,63}$"
-            autocomplete="email"
-            data-error="Utiliser une adresse conforme"
-            data-empty="Ce champ doit être complété">
+            <input value="email" name="email" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
         </div>
         <div class="password">
             <label>Pasword*</label></br>
-            <input name="password" type="password" class="form-control" id="exampleInputPassword1">
+            <input value="password" name="password" type="password" class="form-control" id="exampleInputPassword1">
         </div>
-        <button name="button" type="submit" class="btn btn-success">Connexion</button>
+        <button value="login" name="login" type="submit" class="btn btn-success">Connexion</button>
     </form>
 </body>
 </html>

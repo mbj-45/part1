@@ -4,16 +4,16 @@ var_dump($_POST);
 ?>
 <?php
     function verify_post(){
-        return isset($_POST['login']) && isset($_POST['username']) && isset($_POST['password']);
+        return isset($_POST['login']) && isset($_POST['email']) && isset($_POST['password']);
     }
-   
+   #Utilisateur pre"defini
     function verify_credentials(){
         $username ='toto';
         $password = 'azerty';
  
-        return $username == $_POST['username'] && $password == $_POST['password'];
+        return $username == $_POST['email'] && $password == $_POST['password'];
     }
- 
+    // fonction de vérification d'une connexion bien fait**
     function verify(){
         if (verify_post()){
             if(verify_credentials()){
