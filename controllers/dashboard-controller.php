@@ -1,5 +1,5 @@
 <?php
-     require_once($_SERVER['DOCUMENT_ROOT']."\LAMANU\TD2_C\\my-config.php");
+     require_once("../my-config.php");
 
 
     $target_dir = "uploads/";
